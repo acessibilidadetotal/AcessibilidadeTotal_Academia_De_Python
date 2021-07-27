@@ -6,12 +6,9 @@ def faicha_Etaria(idade):
         return 'maior idade'
     elif idade in range(65, 100):
         return 'melhor idade'
-    elif idade > 100:
+    elif idade >= 100:
         return 'idade centenárea'
     else:
         return 'idade inválida'
 
 
-
-#idade = int(input("Digite sua idade: "))
-#print(f"Sua idade é: {idade} você está na faicha etárea da {faicha_Etaria(idade)}.")
