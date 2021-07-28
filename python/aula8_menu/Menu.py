@@ -1,11 +1,3 @@
-#Crie um programa que leia 2 valores e mostre um menu na tela.
-# seu programa deverá realizar a operação solicitada em cada caso.
-#Seu menu deverá ter as opções:
-#1 para somar
-#2 para multiplicar 
-#3 para o maior valor
-#4 para novos números
-# 5 para sair do programa.
 
 from time import sleep
 
@@ -50,4 +42,4 @@ while opcao != 5:
         print("Opção inválida, tente novamente.")
 print("-"*30)
 sleep(2)
-#print('Fim do programa, volte sempre!')
+
