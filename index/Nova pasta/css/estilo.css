@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+	body {
+	background-color: maroon;
+	color: white;
+	font-family: san-serif;
+}
+
+	div#interface {
+		width: 900px;
+		background-color: green;
+		margin: -20px auto 0px;
+		box-shadow: 1px 1px 10px black;
+		padding: 10px;
+	}
+
+	header#cabecalho {
+		border-bottom: 5px white solid;
+		height: 170px;
+		font-size: 25px;
+		background-color: DarkSlateGrey;
+	}
+
+	header#cabecalho h1 {
+		font-family: arial, sans-serif, 30px;
+		color: white;
+		text-shadow: 1px 1px 1px black ;
+		padding: 50px;
+		margin-bottom: 0px;
+		margin-left: 250px;
+	}
+
+	header#cabecalho h2 {
+		font-family: 'titillium web', sans-serif;
+		padding: -50px;
+		margin-top: -50px;
+		margin-left: 300px;
+	}
