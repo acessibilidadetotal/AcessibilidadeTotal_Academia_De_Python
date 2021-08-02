@@ -8,16 +8,6 @@ Repositório criado para auxiliar deficientes visuais na linguagem de programaç
 
  Adicionei uma calculadora básica em Java Script, podem contribuir ok!
 
- language english.
-
- AccessibilityTotal_Academia_De_Python
-  Accessible Python Lessons for the Blind
-
-Repository created to help the visually impaired in the Python programming language.
-  stay tuned, as I will be publishing many files especially for you who have the desire to learn more and more with great accessibility!
-
-  I added a basic calculator in Java Script, can contribute ok!
-
 
   lengua española
 
