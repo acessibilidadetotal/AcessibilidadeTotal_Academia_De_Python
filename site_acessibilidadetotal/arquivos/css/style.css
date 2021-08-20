@@ -1,117 +1,207 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.img-wrapper {
-    background-color: rgba(0, 0, 0, 2.0);
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.img-wrapper img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    opacity: 8;
-}
-
-.banner {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    animation-name: zum;
-    animation-duration: 5s;
-}
-
-@keyframes zum {
-    0% {
-        transform: scale(1.5);
-        margin-left: 0px;
-        opacity: 0;
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
     }
-    100% {
-        transform: scale(1);
-        margin-left: 300px;
-        opacity: 1;
+    
+    .hamburguer {
+        background-color: #000066;
+        width: 2rem;
+        height: 2rem;
+        position: fixed;
+        z-index: 100;
+        right: 3rem;
+        top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
     }
-}
-
-.banner h1 {
-    color: #fff;
-    font-size: 2.5rem;
-    font-family: cursive;
-    font-weight: 200;
-    text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
-    margin-bottom: 1.5rem;
-    text-transform: uppercase;
-    animation-name: h1;
-    animation-duration: 5s;
-}
-
-@keyframes h1 {
-    0% {
-        transform: translateY(10rem);
-        margin-left: 0px;
-        opacity: 0;
+    
+    .line {
+        width: 100%;
+        height: 3rem;
+        background-color: #000066;
+        box-shadow: 0.2rem, 0.2rem, 2px white;
     }
-    100% {
-        transform: translateX(0);
-        margin-left: 300px;
-        opacity: 1;
+    
+    header {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
     }
-}
-
-.banner p {
-    font-family: sans-serif;
-    color: #fff;
-    font-size: 2rem;
-    text-shadow: .2rem .3rem 2px rgba(0, 0, 0, .4);
-    margin-bottom: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    animation-name: p;
-    animation-duration: 5s;
-}
-
-@keyframes p {
-    0% {
-        transform: translateY(10rem);
-        margin-left: 0px;
-        opacity: 0;
+    
+    .img-wrapper {
+        background-color: rgba(0, 0, 0, 2.0);
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
     }
-    100% {
-        transform: translateX(0);
-        margin-left: 300px;
-        opacity: 1;
+    
+    .img-wrapper img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        opacity: 8;
     }
-}
-
-.banner button {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    background: #000066;
-    background: -webkit-linear-gradient(to right, #000, #000066);
-    background: linear-gradient(to right, #000, #000066);
-    padding: 1rem 2rem;
-    border: none;
-    letter-spacing: .2rem;
-    border-radius: 9px;
-    cursor: pointer;
-    transition: transform 1s;
-}
-
-.banner button:hover {
-    transform: scale(0.5);
-    transform: translate(50px, 20px) rotate(385deg);
-}
+    
+    .banner {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        animation-name: zum;
+        animation-duration: 5s;
+    }
+    
+    @keyframes zum {
+        0% {
+            transform: scale(1.5);
+            margin-left: 0px;
+            opacity: 0;
+        }
+        100% {
+            transform: scale(1);
+            margin-left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .banner h1 {
+        color: #fff;
+        font-size: 2.5rem;
+        font-family: cursive;
+        font-weight: 200;
+        text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        animation-name: h1;
+        animation-duration: 5s;
+    }
+    
+    @keyframes h1 {
+        0% {
+            transform: translateY(10rem);
+            margin-left: 0px;
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            margin-left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .banner p {
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 2rem;
+        text-shadow: .2rem .3rem 2px rgba(0, 0, 0, .4);
+        margin-bottom: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        animation-name: p;
+        animation-duration: 5s;
+    }
+    
+    @keyframes p {
+        0% {
+            transform: translateY(10rem);
+            margin-left: 0px;
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            margin-left: 300px;
+            opacity: 1;
+        }
+    }
+    
+    .banner button {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        background: #000066;
+        background: -webkit-linear-gradient(to right, #000, #000066);
+        background: linear-gradient(to right, #000, #000066);
+        padding: 1rem 2rem;
+        border: none;
+        letter-spacing: .2rem;
+        border-radius: 9px;
+        cursor: pointer;
+        transition: transform 1s;
+    }
+    
+    .banner button:hover {
+        transform: scale(0.5);
+        transform: translate(50px, 20px) rotate(385deg);
+    }
+    
+    .sidebar {
+        width: 20rem;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #000066;
+        background: -webkit-linear-gradient(to right, #fff00f, #000, #000066);
+        background: linear-gradient(to right, #fff00f, #000, #000066);
+        right: -20rem;
+    }
+    
+    .sidebar.show-menu {
+        right: 2;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        transform: translate(50%, 50%);
+    }
+    
+    .menu-item {
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+    
+    .menu-link {
+        font-family: sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        transition: color 1s;
+    }
+    
+    .menu-link:hover {
+        color: white;
+    }
+    
+    .social-media {
+        background: #000066;
+        background: -webkit-linear-gradient(to right, #fff00f, #000, #000066);
+        background: linear-gradient(to right, #fff00f, #000, #000066);
+        position: absolute;
+        bottom: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .social-media i {
+        background: #fff;
+        color: black;
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition: 2s;
+    }
+    
+    .social-media i:hover {
+        background-color: brown;
+    }
