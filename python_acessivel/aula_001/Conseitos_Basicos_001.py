@@ -1,8 +1,8 @@
 
 
-    #print("Olá mundo!")
+print("Olá mundo!")
 
-#print("minha idade é:".upper(), 46, "Anos".lower())
+print("minha idade é:".upper(), 46, "Anos".lower())
 
 nome = "Marcos Alan"
 idade = 46
