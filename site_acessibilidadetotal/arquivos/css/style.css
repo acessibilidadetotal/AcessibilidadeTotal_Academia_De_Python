@@ -294,13 +294,37 @@ header {
     text-transform: uppercase;
 }
 
-.fot {
-    width: 100%;
-    height: 40px;
+.sessao {
+    width: 90%;
+    background-color: #000;
+    margin-top: -45%;
+    margin-left: 5%;
+    align-items: center;
+    padding: 15%;
+    -moz-user-select: all;
+}
+
+.sessao button {
+    font-size: 1.4rem;
+    color: firebrick;
+    background-color: rgba(0, 0, 0, .4);
+    margin-top: 15%;
+    align-items: center;
     text-transform: uppercase;
-    text-align-last: center;
-    color: #fff00f;
-    margin-top: 5rem;
-    padding: 5%;
-    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.sessao button:hover {}
+
+.sessao h1 {
+    color: #fff;
+    margin-top: -15%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sessao p {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
 }
