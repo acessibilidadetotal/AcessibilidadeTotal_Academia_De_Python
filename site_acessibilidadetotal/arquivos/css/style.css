@@ -136,7 +136,7 @@ header {
 }
 
 .sidebar {
-    width: 20rem;
+    width: 21rem;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -252,7 +252,7 @@ header {
     justify-content: center;
 }
 
-.sessao-header h1 {
+.container {
     font-family: sans-serif;
     font-size: 4rem;
     color: #FFFF00;
@@ -266,7 +266,7 @@ header {
 }
 
 .conhecimento-header {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     background-color: #fff;
 }
@@ -297,7 +297,7 @@ header {
 .sessao {
     width: 90%;
     background-color: #000;
-    margin-top: -45%;
+    margin-top: -50%;
     margin-left: 5%;
     align-items: center;
     padding: 15%;
@@ -327,4 +327,8 @@ header {
     color: #fff;
     text-align: center;
     font-size: 2rem;
+}
+
+.banner img {
+    width: 100%;
 }
